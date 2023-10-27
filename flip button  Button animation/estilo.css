@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  background-color: rgba(233, 223, 223, 0.796);
+}
+
+
+.flip-box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #FF9B50 ;
+    transform: translate(50%, 150%) ;
+    box-shadow: 3px 2px 3px 3px #C63D2F;
+    color: #fff;
+    
+}
+
+button{
+    background-color: #FFBB5C;
+    width: 85px;
+    height: 45px;
+    border: 2px solid #f59043d9;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    transition:  0.8s ease;
+}
+
+
+button:hover{
+    background-color: #eba138c5;
+    border: 2px solid #FFBB5C;
+
+}
+
+
+.side{
+    display: none;
+}
+
+h1{
+    padding: 15px;
+}
+
+
+.back-side button{
+    margin: 25px;
+    text-align: center;
+
+}
+
+#delete{
+    background-color: #C63D2F;
+    width: 180px;
+    height: 60px;
+}
+
+
+#delete:hover{
+    background-color: #E25E3E;
+}
+
+
+
+.effect1{
+    transform: rotateY(-180deg);
+}
+
+
+.effect2{
+    transform: rotateY(0deg);
+}
+
+.back-side{
+  
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+   
+}
+
+.flip-box{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    perspective: 150rem;
+}
+
+
+
+.side{
+    width: 40rem;
+    height: 40rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.font-side button{
+    padding: 2rem;
+}
+
+
+*/
